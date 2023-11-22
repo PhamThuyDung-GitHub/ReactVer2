@@ -6,7 +6,6 @@ import Spinner from "./Spinner";
 function App() {
   return (
     <div>
-      <h1>Coded by 19521468</h1>
       <Suspense fallback={<Spinner />}>
         <Lazy />
       </Suspense>
