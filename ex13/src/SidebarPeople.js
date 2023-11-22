@@ -23,7 +23,6 @@ const SidebarPeople = () => {
           <Route path="/people/:slug" element={<PeopleInfo />} />
         </Routes>
       </div>
-      <h5>code by Gia Han</h5>
     </div>
   );
 };
