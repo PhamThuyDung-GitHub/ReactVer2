@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #f2b2ff;
+  background-color: #b3ffb2;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body {
   width: 40%;
   text-align: center;
   background-color: #000;
-  color: #f2b2ff;
+  color: #b3ffb2;
   padding: 40px 30px;
 }
 
@@ -33,7 +33,7 @@ body {
 .joke button {
   padding: 8px 30px;
   border: none;
-  background-color: #f2b2ff;
+  background-color: #b3ffb2;
   color: #000;
   border-radius: 50px;
   font-weight: 700;

@@ -25,7 +25,7 @@ const Random = () => {
         <span className="border-span"></span>
         <span className="text">Get random joke</span>
       </button>
-      <h5>code by Gia Han</h5>
+      <h5>Meo meo ham choi</h5>
     </div>
   );
 };
