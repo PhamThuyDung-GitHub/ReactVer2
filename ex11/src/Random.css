@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2b2ff;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.joke {
+  margin: 15% auto;
+  width: 40%;
+  text-align: center;
+  background-color: #000;
+  color: #f2b2ff;
+  padding: 40px 30px;
+}
+
+.joke i {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.joke p {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.joke button {
+  padding: 8px 30px;
+  border: none;
+  background-color: #f2b2ff;
+  color: #000;
+  border-radius: 50px;
+  font-weight: 700;
+  position: relative;
+}
+
+.joke button .border {
+  position: absolute;
+  border: 2px solid #fff;
+  width: 20px;
+  height: 20px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border-right-color: transparent;
+  animation: border 1s infinite linear;
+  opacity: 0;
+}
+
+.joke button.active .border {
+  opacity: 1;
+}
+
+.joke button.active {
+  opacity: 0.5;
+}
+
+.joke button.active .text {
+  opacity: 0;
+}
+
+.joke h5 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+@keyframes border {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
